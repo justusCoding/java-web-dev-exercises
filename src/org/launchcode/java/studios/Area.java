@@ -12,17 +12,17 @@ public class Area {
         String newRad = String.valueOf(rad);
 
 
-        if(rad<0){
-            System.out.println( "enter a non Negative Number");
-        }else if(newRad == "") {
-            System.out.println("you must enter something!!");
-        }else if(rad != ){//supposed to give error if user enters a non-number
-            System.out.println("Enter a number value");
-        }else {
-
-            double area = Circle.getArea(rad);
-            System.out.println("the area if a circle of radius "+ rad+ " is: "+area );
-        }
+//        if(rad<0){
+//            System.out.println( "enter a non Negative Number");
+//        }else if(newRad == "") {
+//            System.out.println("you must enter something!!");
+//        }else if(rad != ){//supposed to give error if user enters a non-number
+//            System.out.println("Enter a number value");
+//        }else {
+//
+//            double area = Circle.getArea(rad);
+//            System.out.println("the area if a circle of radius "+ rad+ " is: "+area );
+//        }
 
 
     }
